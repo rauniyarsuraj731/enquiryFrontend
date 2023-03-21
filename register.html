@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Dreams LMS</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.jpg">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/plugins/feather/feather.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="main-wrapper log-wrap">
+        <div class="row">
+
+            <div class="col-md-6 login-bg">
+                <div class="owl-carousel login-slide owl-theme">
+                    <div class="welcome-login">
+                        <div class="login-banner">
+                            <img src="assets/img/login-img.png" class="img-fluid" alt="Logo">
+                        </div>
+                        <div class="mentor-course text-center">
+                            <h3>Welcome to Internative</h3>
+                            <h6>Become a Full Stack Web Developer with INTERNATIVE's structured curriculum in just 6 Months. Start your career in one of the most coveted industries with Internative's course designed on the Industry parameter. Get a chance to placed in our 100+ hiring partners.</h6>
+                        </div>
+                    </div>
+             
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 login-wrap-bg">
+
+                <div class="login-wrapper">
+                    <div class="loginbox">
+                        <div class="img-logo">
+                            <img src="assets/img/logo.jpg" class="img-fluid" alt="Logo">
+                            <div class="back-home">
+                                <a href="index.html">Back to Home</a>
+                            </div>
+                        </div>
+                        <h1>Enquiry Form</h1>
+                        <form  action="thankyou.html" Id="Enqury-data">
+                            <div class="form-group">
+                                <label class="form-control-label">Full Name</label>
+                                <input type="text" class="form-control" id="Name"placeholder="Enter your Full Name" required>
+                            </div>
+                           
+                            <div class="form-group">
+                                <label class="form-control-label">Phone No.</label>
+                                <input type="mobile" id="Phone"class="form-control" placeholder="Enter your Mobile Number" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">Email</label>
+                                <input type="email" id="Email"class="form-control" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">State</label>
+                                <select class="form-select jp-form-input py-lg-2" id="State" id="State" required>
+                                    <option >Select</option>
+                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                    <option value="CT">Chhattisgarh</option>
+                                    <option value="DN">Dadra and Nagar Haveli</option>
+                                    <option value="DD">Daman and Diu</option>
+                                    <option value="DL">Delhi</option>
+                                    <option value="GA">Goa</option>
+                                    <option value="GJ">Gujarat</option>
+                                    <option value="HR">Haryana</option>
+                                    <option value="HP">Himachal Pradesh</option>
+                                    <option value="JK">Jammu and Kashmir</option>
+                                    <option value="JH">Jharkhand</option>
+                                    <option value="KA">Karnataka</option>
+                                    <option value="KL">Kerala</option>
+                                    <option value="LA">Ladakh</option>
+                                    <option value="LD">Lakshadweep</option>
+                                    <option value="MP">Madhya Pradesh</option>
+                                    <option value="MH">Maharashtra</option>
+                                    <option value="MN">Manipur</option>
+                                    <option value="ML">Meghalaya</option>
+                                    <option value="MZ">Mizoram</option>
+                                    <option value="NL">Nagaland</option>
+                                    <option value="OR">Odisha</option>
+                                    <option value="PY">Puducherry</option>
+                                    <option value="PB">Punjab</option>
+                                    <option value="RJ">Rajasthan</option>
+                                    <option value="SK">Sikkim</option>
+                                    <option value="TN">Tamil Nadu</option>
+                                    <option value="TG">Telangana</option>
+                                    <option value="TR">Tripura</option>
+                                    <option value="UP">Uttar Pradesh</option>
+                                    <option value="UT">Uttarakhand</option>
+                                    <option value="WB">West Bengal</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">City</label>
+                                <input type="text" class="form-control" id="City" placeholder="Enter your City Name" required>
+                            </div>
+                           
+                         
+                            <div class="d-grid">
+                             <button class="btn btn-primary btn-start" type="submit">Enquire Now</button>
+                            </div>
+                        </form>
+                    </div>
+                   
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/validation.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+<script>
+
+
+let exampleForm=document.getElementById("Enqury-data");
+
+exampleForm.addEventListener("submit", handleFormSubmit);
+
+async function handleFormSubmit(event) {
+    event.preventDefault()
+    var name=document.getElementById("Name").value;
+    // var lastname=document.getElementById("LastN").value;
+    var phone=document.getElementById("Phone").value;
+    var email=document.getElementById("Email").value;
+    var state=document.getElementById("State").value;
+    var city=document.getElementById("City").value;
+    console.log(phone,email,name,state,city)
+    
+    //console.log(EnquireData)
+    await fetch("https://handsome-puce-beanie.cyclic.app/users", {
+     
+     // Adding method type
+     method: "POST",
+      
+     // Adding body or contents to send
+     body: JSON.stringify({
+        name:name,
+        // last_Name:lastname,
+        email:email,
+        phone:Number(phone),
+        state:state,
+        cityname:city
+     }),
+      
+     // Adding headers to the request
+     headers: {
+         "Content-type": "application/json; charset=UTF-8"
+     }
+ })
+  
+ // Converting to JSON
+ .then(response => response.json())
+  
+ // Displaying results to console
+//  .t
+}
+
+
+</script>
